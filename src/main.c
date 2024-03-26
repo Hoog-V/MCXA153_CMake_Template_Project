@@ -1,7 +1,7 @@
 /*! ***************************************************************************
  *
  * \brief     General purpose input/output - output
- * \file      gpio_output.c
+ * \file      main.c
  * \author    Hugo Arends & Victor Hogeweij
  * \date      February 2024
  *
@@ -111,7 +111,6 @@ int main(void)
         // LED green Toggle
         // Write logic 1 to bit 13 in the GPIO3 PTOR register so the
         // corresponding bit in PDOR toggles
-        // GPIO3->PTOR = (1 << 13);
         GPIO3->PTOR = (1 << 13);
         // Delay
         for (volatile int i = 0; i < 1000000; i++){}
