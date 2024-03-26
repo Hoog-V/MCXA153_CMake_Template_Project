@@ -54,3 +54,4 @@ build/
 cmake-debug-build/
 .vscode/
 debug_ozone.jdebug.user
+SDK/
